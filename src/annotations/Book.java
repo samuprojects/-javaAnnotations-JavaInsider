@@ -10,6 +10,7 @@ public class Book {
 
     private final String title;
 
+    @Date(format = "dd/MM/yyyy")
     private final LocalDate releaseDate;
 
     public Book(int id, String title, LocalDate releaseDate) {
