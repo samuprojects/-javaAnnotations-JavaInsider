@@ -22,6 +22,7 @@ public class Book {
 
     @Role("admin")
     @Role("guest")
+    @Id
     public int getId() {
         return id;
     }
