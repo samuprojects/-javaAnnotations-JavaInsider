@@ -20,7 +20,6 @@ public class Book {
         this.releaseDate = releaseDate;
     }
 
-    @Id
     public int getId() {
         return id;
     }
