@@ -5,10 +5,10 @@ import java.time.LocalDate;
 @SuppressWarnings("ALL")
 public class Book {
 
-    @Id // annotation disponível para utilização, por enquanto sem um significado
+    @Id
     private final int id;
 
-    @MaxLength(80) // se a annotation possuir mais de um método é obrigatório escrever o value
+    @MaxLength(80)
     private final String title;
 
     @Date(format = "dd/MM/yyyy")
@@ -20,6 +20,7 @@ public class Book {
         this.releaseDate = releaseDate;
     }
 
+    @Id
     public int getId() {
         return id;
     }
