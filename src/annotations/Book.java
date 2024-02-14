@@ -20,6 +20,8 @@ public class Book {
         this.releaseDate = releaseDate;
     }
 
+    @Role("admin")
+    @Role("guest")
     public int getId() {
         return id;
     }
