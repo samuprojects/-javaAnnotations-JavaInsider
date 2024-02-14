@@ -3,6 +3,7 @@ package annotations;
 import java.time.LocalDate;
 
 @SuppressWarnings("ALL")
+@Item
 public class Book {
 
     @Id
